@@ -24,6 +24,7 @@ To run this project, you'll need Python 3.x installed on your system and the lib
 
 ```bash
 pip install -r requirements.txt
+```
 
 ## License
 
