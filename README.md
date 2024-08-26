@@ -26,6 +26,16 @@ To run this project, you'll need Python 3.x installed on your system and the lib
 pip install -r requirements.txt
 ```
 
+## Sources
+
+This project utilizes macroeconomic and foreign exchange data sourced from [Alpha Vantage](https://www.alphavantage.co). The data includes:
+
+- **FX Data**: Historical foreign exchange rates for multiple currency pairs, sourced using the Alpha Vantage FX API.
+- **Macroeconomic Data**: Key economic indicators such as Consumer Price Index (CPI) and unemployment rates, sourced from the Alpha Vantage Economic Data API.
+
+Ensure you have an API key from Alpha Vantage to access the data. You can obtain a free API key by signing up on their website.
+
+
 ## License
 
 This project is licensed under the MIT License. See the [LICENSE](LICENSE) file for more details.
@@ -36,4 +46,4 @@ For any inquiries or support, feel free to open an issue or contact me at aran.c
 
 ---
 
-**Note**: This project is intended for educational and demonstrative purposes and is not affiliated with or endorsed by BlackRock or its Aladdin platform.
+**Note**: This project is intended for educational and demonstrative purposes only.
